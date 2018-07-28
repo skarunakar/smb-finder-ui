@@ -1,0 +1,47 @@
+.app-home {
+  align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  .navbar-header {
+    background-color: #0077c5;
+    min-height: 50px;
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+  }
+  .container-result {
+    p.query-header{
+      text-align: center;
+      font-size: 24px;
+    }
+  }
+  .search-types {
+    p {
+      font-size: 25px;
+      margin-bottom: 5px;
+      margin-top: 15px;
+    }
+    .search-by-container {
+      display: inline-flex;
+      border: 1px solid;
+      border-radius: 2px;
+      .result-header {
+        font-size: 19px;
+        background-color: #0077c5;
+        border: 1px solid;
+        width: 150px;
+        height: 120px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 90px;
+        a {
+          color: white;
+          cursor: pointer;
+        }
+        }
+    }
+  }
+}

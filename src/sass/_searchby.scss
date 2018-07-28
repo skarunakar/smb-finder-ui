@@ -1,0 +1,65 @@
+.uo1-keyword, .company-home {
+  align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  h2 {
+    text-align: center;
+  }
+  .navbar-header {
+    background-color: #0077c5;
+    min-height: 50px;
+    width: 100%;
+  }
+  .container-input {
+    display: block;
+    text-align: initial;
+    p {
+      margin-left: 20px;
+      margin-bottom: 5px;
+    }
+    input {
+      border: 1px solid #babec5;
+      border-radius: 2px;
+      height: 34px;
+      font-size: 14px;
+      margin: 8px 20px;
+      width: 250px;
+    }
+  }
+  .buttons {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    button.go {
+      background-color: #0077c5;
+      border-color: #0077c5;
+      cursor: pointer;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      margin-bottom: 0;
+      margin-top: 10px;
+      padding: 6px 12px;
+      text-align: center;
+      width: 50px;
+      margin-right: 10px;
+    }
+    button.download {
+      background-color: #0077c5;
+      border-color: #0077c5;
+      cursor: pointer;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      margin-bottom: 0;
+      margin-top: 10px;
+      padding: 6px 12px;
+      text-align: center;
+      width: 150px;
+    }
+  }
+}

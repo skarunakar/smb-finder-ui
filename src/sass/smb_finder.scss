@@ -1,0 +1,10 @@
+#smb-finder-ui {
+     @import "app";
+     @import "variables";
+     @import "tabs";
+     @import "spinner";
+     @import "searchby";
+}
+body {
+     margin: 0px;
+}

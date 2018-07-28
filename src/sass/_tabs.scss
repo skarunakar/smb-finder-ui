@@ -1,0 +1,32 @@
+.tab-container {
+  border: 1px solid white;
+  display: inline-flex;
+  .mca-result, .fb-result, .justdial-result {
+    min-width: 300px;
+    max-width: 300px;
+    border: 1px solid;
+    .container-header {
+      background-color: #0077c5;
+      border: #fff double 2px;
+      cursor: pointer;
+      line-height: 1.42857143;
+      text-align: center;
+      p:first-child{
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+      }
+    }
+    .container-search-results {
+      padding: 5px;
+      p{
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .search-result-row {
+        border-bottom: 1px solid black;
+        padding-bottom: 3px;
+      }
+    }
+  }
+}
